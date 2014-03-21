@@ -21,3 +21,7 @@ class Solution:
             except KeyError:
                 continue
                 
+
+        # Cases need to be considered:
+        # [3,2,4] 6, [0,2,3,0],0
+        # Thus need at least 2 hash tables to store both values and index
