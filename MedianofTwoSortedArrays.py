@@ -1,5 +1,9 @@
 class Solution:
     # @return a float
+    '''
+    It is said that it is better not to use recursion in python.
+    Only 1000 times recursion is allowed
+    '''
     def findMedianSortedArrays(self, A, B):
         m=len(A)
         n=len(B)
