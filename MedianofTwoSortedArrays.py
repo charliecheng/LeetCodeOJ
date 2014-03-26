@@ -2,7 +2,8 @@ class Solution:
     # @return a float
     '''
     It is said that it is better not to use recursion in python.
-    Only 1000 times recursion is allowed
+    By default Only 1000 times recursion is allowed
+    sys.setrecursionlimit(10000)
     '''
     def findMedianSortedArrays(self, A, B):
         m=len(A)
