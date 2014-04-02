@@ -4,6 +4,8 @@
 Moreover, it is very slow to use string + string to create new string. 
 It is better to use ''.join from list to create a new string. It is easy, cos in python the string content cannot be manipulated.
 xrange() is faster than range()
+For more information:
+http://www.skymind.com/~ocrow/python_string/
 '''
 class Solution:
     # @return a string
